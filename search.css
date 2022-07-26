@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 700px;
+    height: 70px;
+    display: flex;
+    overflow: hidden;
+    border-radius: 40px;
+   
+    margin: 15% 35%;
+    
+ 
+     
+}
+
+
+
+.share-button{
+    width: 350px;
+    height: 70px;
+    background-color: rgb(228,228,228);
+    border-radius: 40px;
+
+    overflow: hidden;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.share-button div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+}
+ 
+
+ .iner-left{
+    width: 350px;
+    height: 70px;   
+
+    background-color: black;
+    color: white;
+    border-radius: 40px;
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: 0.3s ease;
+    transition-delay: 0.4s;
+    transform: translate(-350px);
+    
+}
+.share-button:hover{
+    
+    cursor: pointer;
+}
+
+.iner-left:hover{
+    cursor: pointer;
+    transform: translate(-700px)
+     
+}
